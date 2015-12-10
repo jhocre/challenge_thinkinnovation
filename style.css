@@ -1,5 +1,17 @@
 * {
-	border : 1px red solid;
-	margin : 0px;
-	padding : 0px;
+	/*border : 1px red solid;*/
+	margin : 0px ;
+	padding : 0px ;
+}
+
+.cream {
+	background-color: #F2F0EB;
+}
+
+.grey {
+	background-color: #969186;
+}
+
+.red {
+	background-color: #D0021B;
 }
