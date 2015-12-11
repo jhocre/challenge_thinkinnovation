@@ -34,7 +34,7 @@
     
     	<header class="container">	
     		<div class="row">
-    				<img class="col-sm-3 col-xs-12" alt="test_logo" src="http://fakeimg.pl/350x200/?text=World&font=lobster">
+    				<img class="col-sm-3 col-xs-12" alt="logo compagny" src="img/logo.png">
     		</div>
     	</header>
     	
@@ -42,29 +42,32 @@
     	
     	<section class="container cream">
     		<div class="row">
-	    		<div class="col-md-6 col-xs-12">
-	    			<div class="row">
-	    				<div class="col-md-12">
-	    					<h2>MODULE 1</h2>
-	    				</div>
-	    				<div class="col-md-12">
-	    					<video width="100%" controls="controls">
-								<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-							  	<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-							  	<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-							  	<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
-							</video>
-	    				</div>
-	    			</div>
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<h3>What is <span>D</span>ART<span>?</span></h3>
+	    		<div class="col-md-6 col-sm-6 col-xs-12">
+    				<h2>MODULE 1</h2>
+    			</div>
+    			<div class="col-md-6 col-sm-6 hidden-xs ">		
+    			</div>
+    		</div>	
+    		
+    		<div class="row">	
+    			<div class="col-md-6 col-sm-6 col-xs-12">
+    				<video width="100%" controls="controls"  poster="img/poster.png" poster="img/poster.png">
+						<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+						<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+						<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+						<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+					</video>
+    			</div>
+    			
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<h3 id="intro">What is <span>D</span>ART<span>?</span></h3>
 					<p>This short video (1mn) will introduce you to <span>D</span>ART and how it can help you find the documents you are looking for.</p>
-					<p><span>D</span>ART stands for « Document Archive Retrieval Tool » and was built in 2006 by the team with the same name. It is an extraordinary resource for all the BCS Regulatory community.</p>
+					<p><span>D</span>ART stands for "Document Archive Retrieval Tool" and was built in 2006 by the team with the same name. It is an extraordinary resource for all the BCS Regulatory community.</p>
 				</div>
 			</div>
+    	
 			<div class="row">	
-				<div class="col-md-12">
+				<div class="col-md-12 tips" id="tips1">
 					<p>Did this video answer your questions?<i class="fa fa-check"></i></p>
 				</div>
 			</div>
@@ -73,6 +76,7 @@
     <!-- MODUL 2 -->	
     		
     	<section class="container grey">
+    		<div id="triangle1"></div>
     		<div class="row">
     			<div class="col-md-12">
     				<h2>MODULE 2</h2>
@@ -82,127 +86,112 @@
     				<p>You are now convinced that <span>D</span>ART can be a very precious partner in your daily activities. Want to see what it is like and how easy it is to start working with it? The following demos will show you 7 practical use cases (1mn30 each).</p>
     			</div>
     			
-    			<article id="active" class="col-md-12">
-    					<video width="100%" controls="controls">
-								<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-							  	<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-							  	<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-							  	<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
-							</video>
+    			<article class="col-md-12">
+    				<video width="100%" controls="controls"  poster="img/poster.png">
+						<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+						<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+						<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+						<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+					</video>
     			</article>	
     			
-    			<article class="col-md-4 col-sm-6 col-xs-12">
-    				<div class="row">
-    					<div class="col-md-12">
-    						<video width="100%" controls="controls">
-								<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-							  	<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-							  	<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-							  	<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
-							</video>
-    					</div>
-    					<div class="col-md-12">
-    						<h4>PART 2</h4>
-    						<h5>Multiple search</h5>
-    					</div>
-    				</div>
-    			</article>
     			
-    			<article class="col-md-4 col-sm-6 col-xs-12">
-    				<div class="row">
-    					<div class="col-md-12">
-    						<video width="100%" controls="controls">
-								<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-							  	<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-							  	<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-							  	<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
-							</video>
-    					</div>
-    					<div class="col-md-12">
-    						<h4>PART 3</h4>
-    						<h5>Primary document</h5>
-    					</div>
+    			<article class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<video width="100%" controls="controls"  poster="img/poster.png">
+						<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+						<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+						<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+						<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+					</video>
+						
+					<div class="col-md-12">
+						<h4>PART 2</h4>
+    					<h5>Multiple search</h5>
     				</div>
-    			</article>
+				</article>
+				
+				<article class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<video width="100%" controls="controls"  poster="img/poster.png">
+						<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+						<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+						<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+						<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+					</video>
+						
+					<div class="col-md-12">
+						<h4>PART 3</h4>
+    					<h5>Primary document</h5>
+    				</div>
+				</article>
+				
+				<article class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<video width="100%" controls="controls"  poster="img/poster.png">
+						<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+						<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+						<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+						<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+					</video>
+						
+					<div class="col-md-12">
+						<h4>PART 4</h4>
+    					<h5>Multiple search</h5>
+    				</div>
+				</article>
+				
+				<article class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<video width="100%" controls="controls"  poster="img/poster.png">
+						<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+						<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+						<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+						<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+					</video>
+						
+					<div class="col-md-12">
+						<h4>PART 5</h4>
+    					<h5>Primary document</h5>
+    				</div>
+				</article>
+				
+				<article class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<video width="100%" controls="controls"  poster="img/poster.png">
+						<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+						<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+						<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+						<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+					</video>
+						
+					<div class="col-md-12">
+						<h4>PART 6</h4>
+    					<h5>Multiple search</h5>
+    				</div>
+				</article>
+				
+				<article class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<video width="100%" controls="controls"  poster="img/poster.png">
+						<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+						<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+						<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+						<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+					</video>
+						
+					<div class="col-md-12">
+						<h4>PART 7</h4>
+    					<h5>Primary document</h5>
+    				</div>
+				</article>
     			
-    			<article class="col-md-4 col-sm-6 col-xs-12">
-    				<div class="row">
-    					<div class="col-md-12">
-    						<video width="100%" controls="controls">
-								<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-							  	<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-							  	<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-							  	<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
-							</video>
-    					</div>
-    					<div class="col-md-12">
-    						<h4>PART 4</h4>
-    						<h5>Multiple search</h5>
-    					</div>
-    				</div>
-    			</article>
-    			
-    			<article class="col-md-4 col-sm-6 col-xs-12">
-    				<div class="row">
-    					<div class="col-md-12">
-    						<video width="100%" controls="controls">
-								<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-							  	<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-							  	<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-							  	<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
-							</video>
-    					</div>
-    					<div class="col-md-12">
-    						<h4>PART 5</h4>
-    						<h5>Primary document</h5>
-    					</div>
-    				</div>
-    			</article>
-    			
-    			<article class="col-md-4 col-sm-6 col-xs-12">
-    				<div class="row">
-    					<div class="col-md-12">
-    						<video width="100%" controls="controls">
-								<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-							  	<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-							  	<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-							  	<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
-							</video>
-    					</div>
-    					<div class="col-md-12">
-    						<h4>PART 6</h4>
-    						<h5>Multiple search</h5>
-    					</div>
-    				</div>
-    			</article>
-    			
-    			<article class="col-md-4 col-sm-6 col-xs-12">
-    				<div class="row">
-    					<div class="col-md-12">
-    						<video width="100%" controls="controls">
-								<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-							  	<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-							  	<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-							  	<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
-							</video>
-    					</div>
-    					<div class="col-md-12">
-    						<h4>PART 7</h4>
-    						<h5>Primary document</h5>
-    					</div>
-    				</div>
-    			</article>
     		</div>
     		<div class="row">	
-    			<div class="col-md-12">
+    			<div class="col-md-12 tips" id="tips2">
 					<p>Did you find these videos useful?<i class="fa fa-check"></i></p>
 				</div>
     		</div>
+    		
     	</section>
     	
     <!-- MODUL 3 -->	
     	
-    	<section class="container cream">
+    	<section class="container cream2">
     		<div class="row">
     			<div class="col-md-12">
     				<h2>MODULE 3</h2>
@@ -213,60 +202,50 @@
     			</div>
     		</div>
     		<div class="row">
-    		
-    		
     			<article class="col-md-8 col-sm-12 ">
-    				<div class="row">
-    					<div class="col-md-12">
-    						<video width="100%" controls="controls">
-								<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-							  	<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-							  	<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-							  	<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
-							</video>
-    					</div>
-    					<div class="col-md-12">
-    						<h4>PART 1</h4>
-    						<h5>Primary document and document workflow</h5>
-    						<p>This video comes accross the concept of document workflow. In DART, the document workflow is a key functionality to the system.</p>
-    					</div>
+    				<video width="100%" controls="controls"  poster="img/poster.png">
+						<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+						<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+						<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+						<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+					</video>
+    					
+    				<div class="col-md-12 part1">
+    					<h4>PART 1</h4>
+    					<h5>Primary document and document workflow</h5>
+    					<p>This video comes accross the concept of document workflow. In DART, the document workflow is a key functionality to the system.</p>
     				</div>
+    				
     			</article>
     			
     			<div class="col-md-4 col-sm-12">
     				<div class="row">
 		    			<article class="col-md-12 col-sm-6 col-xs-12">
-		    				<div class="row">
-		    					<div class="col-md-12">
-		    						<video width="100%" controls="controls">
+		    				<video width="100%" controls="controls"  poster="img/poster.png">
 								<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-							  	<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-							  	<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-							  	<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+								<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+								<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+								<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
 							</video>
-		    					</div>
-		    					<div class="col-md-12">
-		    						<h4>PART 2</h4>
-		    						<h5>Multiple search</h5>
-		    					</div>
+		    					
+		    				<div class="col-md-12">
+		    					<h4>PART 2</h4>
+		    					<h5>Multiple search</h5>
 		    				</div>
 		    			</article>
 		    			
 		    			<article class="col-md-12 col-sm-6 col-xs-12">
-		    				<div class="row">
-		    					<div class="col-md-12">
-		    						<video width="100%" controls="controls">
+		    				<video width="100%" controls="controls"  poster="img/poster.png">
 								<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-							  	<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
-							  	<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-							  	<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+								<source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+								<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+								<source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
 							</video>
-		    					</div>
-		    					<div class="col-md-12">
-		    						<h4>PART 3</h4>
-		    						<h5>Multiple search</h5>
-		    					</div>
-		    				</div>
+		    					
+		    				<div class="col-md-12">
+		    					<h4>PART 3</h4>
+		    					<h5>Multiple search</h5>
+		    				</div>	
 		    			</article>
 		    			
 		    		</div>	
@@ -280,7 +259,7 @@
     	<section class="container red">
     		<div class="row">
     			<div class="col-md-12">
-    				<p>Almost done!</p>
+    				<p><span>Almost done!</span></p>
     				<p>Now that you a pretty goog idea of what <span>D</span>ART is and what can it do for you, let's do a quick roundup:</p>
     			</div>
     		</div>
@@ -288,7 +267,8 @@
     	
     	<!-- FORM ZONE -->		
     	
-    	<section class="container cream">	
+    	<section class="container cream2">
+    		<div id="triangle2"></div>	
     		<div class="row">
 	    		<div class="col-md-12">
 	    			<h2>FINAL ROUND</h2>
@@ -428,11 +408,12 @@
 						    	answer 3
 						  	</label>
 						</div>
-					</div>
-					
-					
-	    		</form>
+					</div>	
+				</form>
     		</div>
+		
+		<button type="submit" class="btn center-block">Save my answers</button>
+				
     	</section>
     </div> 
     
