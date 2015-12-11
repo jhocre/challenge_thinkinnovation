@@ -1,17 +1,162 @@
-* {
-	/*border : 1px red solid;*/
-	margin : 0px ;
-	padding : 0px ;
+#main {
+	font-family: 'Raleway', sans-serif;
 }
 
-.cream {
+.container{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+p, label{
+	color : black;
+}
+
+/*------------ sections general --------------*/
+
+.cream{
 	background-color: #F2F0EB;
+	color: #7D7768;
+}
+
+.cream2{
+	background-color: #F2F0EB;
+	color: #D0021B;
+	padding-bottom: 30px;
 }
 
 .grey {
 	background-color: #969186;
+	color: #FFFFFF;
 }
 
 .red {
 	background-color: #D0021B;
+	padding: 20px 0px; 
+}
+
+.red p{
+	color: #FFFFFF;
+	text-align:center;
+	padding: 0px 50px;
+}
+
+/*------------- articles --------------*/
+
+article{
+	text-align:center;
+	padding : 15px;
+}
+
+article h4,h5,p{
+	text-align:left;
+}
+
+article div{
+	background-color: white;
+}
+
+video{
+	margin-bottom: -7px;
+}
+
+span{
+	font-weight: bolder;
+}
+
+h2{
+	font-size:1em;
+	border-bottom: 2px solid;
+	line-height:30px;
+	letter-spacing:2px;
+	font-weight:bolder;
+}
+
+h4{
+	color: #EC4236;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+h5{
+	color: #5C5B5C;
+	font-weight: 450;
+	font-size: 1.3em;
+}
+
+/*----------- details articles -----------*/
+
+.part1{
+  	padding-top: 12px;
+  	padding-bottom: 12px;
+  }
+
+/*----------- checked bar -----------*/
+
+.tips p{
+	text-align: center;
+	padding: 10px;
+	margin:20px -5px;
+}
+
+.tips i{
+	margin-left: 15px; 
+	border-radius: 20px;
+	width:30px;
+	padding:7px 0px;
+	background-color: #6BC200;
+	color: white;
+}
+
+#tips1 p{
+	background-color:#FBFAF8
+}
+
+#tips2 p{
+	background-color:#C2BFB8
+}
+
+/*------------ triangles end of sections ------------*/
+
+#triangle1{
+ 	width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent; 
+    border-top: 20px solid #F2F0EB;
+    margin:auto;
+}
+
+#triangle2{
+ 	width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent; 
+    border-top: 20px solid #D0021B;
+    margin:auto;
+}
+
+/*---------- form -----------*/
+
+button {
+	width: 250px;
+	color: white;
+	background-color: #D0021B;
+	border-radius: 6px;
+	margin-top: 30px !important;
+}
+
+/*------------ media queries ----------*/
+
+@media screen and (min-width: 767px) {
+  #intro{
+    margin : auto;
+  }
+}
+
+@media screen and (max-width : 991px) {
+  article div{
+    background-color : white;
+    padding : 1px 0px;
+  }
+  
 }
