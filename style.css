@@ -11,6 +11,10 @@ p, label{
 	color : black;
 }
 
+form p{
+	font-weight : bolder;
+}
+
 /*------------ sections general --------------*/
 
 .cream{
@@ -141,7 +145,7 @@ button {
 	width: 250px;
 	color: white;
 	background-color: #D0021B;
-	border-radius: 6px;
+	border-radius: 7px !important;
 	margin-top: 30px !important;
 }
 
@@ -150,6 +154,7 @@ button {
 @media screen and (min-width: 767px) {
   #intro{
     margin : auto;
+    padding-bottom:15px;
   }
 }
 
