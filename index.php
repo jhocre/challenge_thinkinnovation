@@ -279,7 +279,7 @@
     	
 	    		<form action="">
 	    			<div class="col-md-4 col-sm-6 col-xs-12">
-	    				<p>What is DART?</p>
+	    				<p>What is a primary document?</p>
 		    			<div class="radio">
 						  	<label>
 						  		<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
@@ -292,7 +292,7 @@
 								answer 2  
 							</label>
 						</div>
-						<div class="radio">
+						<div class="radio disabled">
 						  	<label>
 						    	<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
 						    	answer 3
@@ -301,132 +301,110 @@
 					</div>
 					
 					<div class="col-md-4 col-sm-6 col-xs-12">
-						<p>Which documents can I find in DART?</p>
+						<p>What is a primary document?</p>
 		    			<div class="radio">
 						  	<label>
-						  		<input type="radio" name="optionsRadios1" id="optionsRadios1.1" value="option1">
+						  		<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
 						    	answer 1
 						  	</label>
 						</div>
 						<div class="radio">
 						  	<label>
-						    	<input type="radio" name="optionsRadios1" id="optionsRadios1.2" value="option2">
+						    	<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
 								answer 2  
 							</label>
 						</div>
-						<div class="radio">
+						<div class="radio disabled">
 						  	<label>
-						    	<input type="radio" name="optionsRadios1" id="optionsRadios1.3" value="option3">
+						    	<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
 						    	answer 3
 						  	</label>
 						</div>
 					</div>
 					
 					<div class="col-md-4 col-sm-6 col-xs-12">
-						<p>What is the purpose of DART?</p>
+						<p>What is a primary document?</p>
 		    			<div class="radio">
 						  	<label>
-						  		<input type="radio" name="optionsRadios2" id="optionsRadios2.1" value="option1">
+						  		<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
 						    	answer 1
 						  	</label>
 						</div>
 						<div class="radio">
 						  	<label>
-						    	<input type="radio" name="optionsRadios2" id="optionsRadios2.2" value="option2">
+						    	<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
 								answer 2  
 							</label>
 						</div>
-						<div class="radio">
+						<div class="radio disabled">
 						  	<label>
-						    	<input type="radio" name="optionsRadios2" id="optionsRadios2.3" value="option3">
+						    	<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
 						    	answer 3
 						  	</label>
 						</div>
 					</div>
 					
 					<div class="col-md-4 col-sm-6 col-xs-12">
-						<p>What is the interpretation of a DART number?</p>
+						<p>What is a primary document?</p>
 		    			<div class="radio">
 						  	<label>
-						  		<input type="radio" name="optionsRadios3" id="optionsRadios3.1" value="option1">
+						  		<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
 						    	answer 1
 						  	</label>
 						</div>
 						<div class="radio">
 						  	<label>
-						    	<input type="radio" name="optionsRadios3" id="optionsRadios3.2" value="option2">
+						    	<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
 								answer 2  
 							</label>
 						</div>
-						<div class="radio">
+						<div class="radio disabled">
 						  	<label>
-						    	<input type="radio" name="optionsRadios3" id="optionsRadios3.3" value="option3">
+						    	<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
 						    	answer 3
 						  	</label>
 						</div>
 					</div>
 					
 					<div class="col-md-4 col-sm-6 col-xs-12">
-						<p>Talking about the search for a document by Edition Number, which of the following statements are true?</p>
+						<p>What is a primary document?</p>
 		    			<div class="radio">
 						  	<label>
-						  		<input type="radio" name="optionsRadios4" id="optionsRadios4.1" value="option1">
+						  		<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
 						    	answer 1
 						  	</label>
 						</div>
 						<div class="radio">
 						  	<label>
-						    	<input type="radio" name="optionsRadios4" id="optionsRadios4.2" value="option2">
+						    	<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
 								answer 2  
 							</label>
 						</div>
-						<div class="radio">
+						<div class="radio disabled">
 						  	<label>
-						    	<input type="radio" name="optionsRadios4" id="optionsRadios4.3" value="option3">
+						    	<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
 						    	answer 3
 						  	</label>
 						</div>
 					</div>
 					
 					<div class="col-md-4 col-sm-6 col-xs-12">
-						<p>How can I open the archived document?</p>
+						<p>What is a primary document?</p>
 		    			<div class="radio">
 						  	<label>
-						  		<input type="radio" name="optionsRadios5" id="optionsRadios1" value="option5.1">
+						  		<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
 						    	answer 1
 						  	</label>
 						</div>
 						<div class="radio">
 						  	<label>
-						    	<input type="radio" name="optionsRadios5" id="optionsRadios2" value="option5.2">
+						    	<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
 								answer 2  
 							</label>
 						</div>
-						<div class="radio">
+						<div class="radio disabled">
 						  	<label>
-						    	<input type="radio" name="optionsRadios5" id="optionsRadios3" value="option5.3">
-						    	answer 3
-						  	</label>
-						</div>
-					</div>	
-					
-					<div class="col-xs-12">
-						<p>What do the three columns in front of the query result list mean?</p>
-		    			<div class="radio">
-						  	<label>
-						  		<input type="radio" name="optionsRadios6" id="optionsRadios6.1" value="option5.1">
-						    	answer 1
-						  	</label>
-						</div>
-						<div class="radio">
-						  	<label>
-						    	<input type="radio" name="optionsRadios6" id="optionsRadios6.2" value="option5.2">
-								answer 2  
-							</label>
-						</div>
-						<div class="radio">
-						  	<label>
-						    	<input type="radio" name="optionsRadios6" id="optionsRadios6.3" value="option5.3">
+						    	<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
 						    	answer 3
 						  	</label>
 						</div>
